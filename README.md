@@ -12,7 +12,9 @@ Add the following implementation to your `build.gradle`:
 
 ```gradle
 implementation("com.google.android.exoplayer:exoplayer:2.19.1")
+```
 
+```
 Basic Implementation:
 
 val player = ExoPlayer.Builder(context).build()
@@ -21,8 +23,9 @@ val mediaItem = MediaItem.fromUri("yourURL")
 player.setMediaItem(mediaItem)
 player.prepare()
 player.play()
+```
 
-
+```
 Detailed Features
 Looping Media with ExoPlayer
 To create a seamless looping playback experience:
@@ -43,8 +46,9 @@ job = CoroutineScope(Dispatchers.Main).launch {
         player.play()
     }
 }
+```
 
-
+```
 Tips
 Playback States
 
@@ -58,8 +62,9 @@ player.addListener(object : Player.Listener {
         }
     }
 })
+```
 
-Additional Features
+##Additional Features
 
 AnalyticsListener and EventLogger: Useful for analysis and logging.
 Dynamic Playlist Management: Add, remove, or rearrange media items.
