@@ -64,11 +64,17 @@ player.addListener(object : Player.Listener {
 })
 ```
 
-##Additional Features
+## Additional Features
 
-AnalyticsListener and EventLogger: Useful for analysis and logging.
-Dynamic Playlist Management: Add, remove, or rearrange media items.
-Repeat and Shuffle Modes: Control playlist playback.
-Ads Configuration: Implement ads in your player.
-Live Streams Management: Handle live streams and related features.
-Adjustable Playback Speed: Control playback speed dynamically.
+- **AnalyticsListener and EventLogger**: Useful for analysis and logging.
+
+- **Dynamic Playlist Management**: Add, remove, or rearrange media items.
+
+- **Repeat and Shuffle Modes**: Control playlist playback.
+
+- **Ads Configuration**: Implement ads in your player.
+
+- **Live Streams Management**: Handle live streams and related features.
+
+- **Adjustable Playback Speed**: Control playback speed dynamically.
+
