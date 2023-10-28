@@ -78,3 +78,4 @@ player.addListener(object : Player.Listener {
 
 - **Adjustable Playback Speed**: Control playback speed dynamically.
 
+ ![SS1](https://s6.gifyu.com/images/S8wjV.gif) 
