@@ -77,6 +77,10 @@ player.addListener(object : Player.Listener {
 - **Live Streams Management**: Handle live streams and related features.
 
 - **Adjustable Playback Speed**: Control playback speed dynamically.
+ 
+ ![SS1](https://i.ibb.co/h24V8wY/Screen-Shot-2023-10-28-at-11-21-53-3.png)
+ ![SS1](https://i.ibb.co/h24V8wY/Screen-Shot-2023-10-28-at-11-21-51-3.png)
+
 
 <img src="https://s6.gifyu.com/images/S8wjV.gif" alt="GIF description">
 ![GIF description](https://s6.gifyu.com/images/S8wjV.gif)
