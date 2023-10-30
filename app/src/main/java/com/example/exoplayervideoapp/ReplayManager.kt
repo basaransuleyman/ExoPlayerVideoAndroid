@@ -14,11 +14,12 @@ class ReplayManager {
     If you have thread issues please use second option
     private var job: Job? = null
     fun startReplay(player: ExoPlayer) {
-        job = CoroutineScope(Dispatchers.Main).launch {
+        job = CoroutineScope(Dispatchers.Default).launch {
             while (isActive) {
                 delay(15000)
-                player.seekTo(0)
-                player.play()
+           withContext(Dispatchers.Main) {
+            player.seekTo(0)
+            player.play()
             }
         }
     }
