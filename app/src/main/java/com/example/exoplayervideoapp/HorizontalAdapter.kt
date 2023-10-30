@@ -56,7 +56,7 @@ class HorizontalAdapter(
                     }
 
                     currentPlayer = player
-                    replayManager.cancelReplay()
+                    replayManager.stopReplay()
                     replayManager.startReplay(player)
                     this@VideoCardViewHolder.isVideoStarted = true
                     currentPlayer = player
